@@ -12,6 +12,9 @@
     output="screen">
 
     <param name="publish_tf" value="false"/>
+    <param name="use_mag" value="false"/>
+    
+    <remap from="/imu/data_raw" to="/imu" />
 
   </node>
 </launch>
